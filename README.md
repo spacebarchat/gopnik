@@ -84,3 +84,4 @@ if (client.instanced) {		//Similar to client.shard
 //INSTANCE_TOKEN is set by InstanceMananger for this process.
 client.login(process.env.INSTANCE_TOKEN);
 ```
+
