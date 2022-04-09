@@ -1,0 +1,30 @@
+{
+	"name": "fosscord-gopnik",
+	"version": "1.0.0",
+	"description": "Discord.js Monkey-Patch to allow connections to Fosscord",
+	"main": "build/index.js",
+	"types": "build/index.d.ts",
+	"scripts": {
+		"build": "tsc",
+		"prepare": "npm run build"
+	},
+	"author": "MaddyUnderStars & discord.js: Amish Shah <amish@shah.gg>",
+	"license": "ISC",
+	"dependencies": {
+		"discord.js": "^13.5.1"
+	},
+	"devDependencies": {
+		"typescript": "^4.5.4"
+	},
+	"files": [
+		"build"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/fosscord/fosscord-gopnik"
+	},
+	"bugs": {
+		"url": "https://github.com/fosscord/fosscord-gopnikissues"
+	},
+	"homepage": "https://github.com/fosscord/fosscord-gopnik#readme"
+}
