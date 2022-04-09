@@ -1,7 +1,6 @@
 # fosscord-gopnik
 
-# About
-This package monkey-patches the [Discord.js](https://github.com/discordjs/discord.js) library in order to allow it to connect to [Fosscord](https://github.com/fosscord/fosscord-server) instances.
+This package guerilla-patches the [Discord.js](https://github.com/discordjs/discord.js) library in order to allow it to connect to [Fosscord](https://github.com/fosscord/fosscord-server) instances.
 
 # Install
 ```
@@ -85,3 +84,4 @@ if (client.instanced) {		//Similar to client.shard
 //INSTANCE_TOKEN is set by InstanceMananger for this process.
 client.login(process.env.INSTANCE_TOKEN);
 ```
+
